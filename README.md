@@ -1,26 +1,48 @@
-# Perfect_Guess
-These are my latest projects created in 2022.
-The basic understanding for this code is:
-Step 1:  Import random for your python File\n.
-step 2: Then ask the computer to take a random value (By using randint).
-step 3: Give a Range to the computer (1-100) to make it user friendly and not to make it complex to guess.
-step 4: Initialize the number . Here I used attempt =  1
-step 5: Lest's dive into the if-else structure.
-First If: 
-        if we have given an input to the file is 25 and it is greater than the winning number then it prints you
-        The Number is bigger than the number! Try again: 
-        and also the attempt becomes   +1
-Second condition(elif):
-        if we have given an input to the file is 100 and it is smaller than the winning number then it prints you
-        The Number is smaller than the number! Try again: 
-        and also the attempt becomes   +1
- 
- 
-Third conditionn(else):
-        if your answer is right then it prints out
-        print(f"YAY! You guessed it right in {attempt} attempts")
-        YAY! You guessed it right in {attempt} attempts
-        here it shows you how many attempts you have took to guess the number
-        and finally put a break to close the loop.
-    THANK YOU FOR READING 
-    //KONDU VINAY.
+🎯 Perfect Guess
+Welcome to Perfect Guess – a fun and interactive number guessing game written in Python!
+Challenge your intuition, test your luck, and see how fast you can guess the secret number at three different levels of difficulty.
+
+🚀 Features
+Three Difficulty Levels:
+
+Easy: Range 1-20
+
+Medium: Range 21-100
+
+Hard: Range 100-500
+
+Tracks your number of attempts.
+
+Input validation for a smooth gameplay experience.
+
+Option to play again after each game.
+
+Clear and user-friendly terminal interface.
+
+🕹️ How to Play
+Choose a level:
+Select between Easy, Medium, and Hard difficulty.
+
+Start guessing:
+The program picks a random number in the selected range.
+Enter your guesses - after each guess, you’ll be told if you need to aim higher or lower.
+
+Win:
+When you guess the correct number, the program congratulates you and tells you how many attempts you took.
+
+Play again:
+Decide if you want another round!
+
+📦 Getting Started
+Requirements
+Python 3.x
+
+🤝 Contributing
+Have ideas to improve the game or found a bug?
+Feel free to open an issue or submit a pull request!
+
+⚡ Author
+Developed with ❤️ by Kondu Vinay
+
+Enjoy the game and challenge your friends!
+Happy guessing! 🎉
