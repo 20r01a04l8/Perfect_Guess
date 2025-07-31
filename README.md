@@ -1,7 +1,7 @@
 # Perfect_Guess
 These are my latest projects created in 2022.
 The basic understanding for this code is:
-Step 1:  Import random for your python FIle.
+Step 1:  Import random for your python File\n.
 step 2: Then ask the computer to take a random value (By using randint).
 step 3: Give a Range to the computer (1-100) to make it user friendly and not to make it complex to guess.
 step 4: Initialize the number . Here I used attempt =  1
